@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="android_version">17</string>
+<boolean name="use_random_keypad" value="false" />
+<boolean name="enable" value="true" />
+<boolean name="lock_bluetooth" value="false" />
+<boolean name="auto_login" value="true" />
+<string name="lastUnlockPkgForScreenFilter"></string>
+<boolean name="tmp_tobedelete31" value="true" />
+<string name="pwd_type">1</string>
+<boolean name="use_vibra" value="false" />
+<boolean name="tmp_tobedelete26" value="true" />
+<string name="tmp_tobedelete23">prgxoom@gmail.com</string>
+<boolean name="lock_sync_data" value="false" />
+<int name="tmp_tobedelete24" value="0" />
+<boolean name="lock_home_screen" value="false" />
+<boolean name="use_draw_path" value="true" />
+<boolean name="stealth_mode" value="false" />
+<boolean name="use_keypad_haptic" value="true" />
+<string name="restore">1</string>
+<boolean name="always_lock" value="true" />
+<boolean name="runFromPassword" value="false" />
+<boolean name="use_gesture_path" value="true" />
+<boolean name="pwd_incorrect_delay" value="false" />
+<boolean name="lock_install" value="false" />
+<boolean name="use_screen_off" value="true" />
+<boolean name="device_admin" value="false" />
+<long name="tmp_tobedelete12" value="1402022433997" />
+<long name="last_unlock_time" value="0" />
+<int name="licensePassCnt" value="11" />
+<string name="tmp_tobedelete16">AKIAIMHQZC5JTDO54QQA,AriPHWtBvl6hvdxoYUj9jDmEeSuyvN6EuUUmXWXs8HKY</string>
+<long name="tmp_tobedelete17" value="1410389552049" />
+<boolean name="pollNeverShown" value="true" />
+<int name="versionCode" value="145" />
+<int name="mainRunCnt" value="9" />
+<string name="ad_type_eng">6:7:9=0:10:0</string>
+<boolean name="auto_start" value="true" />
+<string name="version">7.0.6</string>
+<boolean name="lock_wifi" value="false" />
+<string name="delay_locktime">5</string>
+<boolean name="lock_usb" value="false" />
+<int name="keypad_type" value="0" />
+<long name="tmp_tobedelete" value="1402454433704" />
+<boolean name="screenFilterNeverShown" value="true" />
+<boolean name="enable_screen_manager" value="true" />
+<boolean name="lock_control_panel" value="false" />
+<long name="tmp_tobedelete6" value="1410389548842" />
+<boolean name="firstStart" value="false" />
+<long name="tmp_tobedelete5" value="1410389554333" />
+<boolean name="use_pkg_add_popup" value="false" />
+<boolean name="tmp_tobedelete44" value="true" />
+<string name="tmp_tobedelete8">73:false,5,10,,,,false,35,,5,,10,,,,,,10,25,5,5,9,5,100,290,220,240,2,9,1,Y,Y,,3,X,,,,19,9,10,11,8,8,144:7.0.5:N,20,5,5,Y,5,5,5,5,5,5,5,5,,</string>
+<long name="tmp_tobedelete2" value="1402022440880" />
+<boolean name="lock_uninstall" value="false" />
+<string name="lastUnlockPkg"></string>
+<boolean name="lock_mobile_data" value="false" />
+<string name="pwd">0112</string>
+<boolean name="delay_lock" value="false" />
+<boolean name="galleryLockNeverShown" value="true" />
+<boolean name="use_en_locale" value="false" />
+<boolean name="isStopAlarm" value="false" />
+</map>
