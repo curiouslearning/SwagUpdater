@@ -73,7 +73,7 @@ public class SwagUpdater {
         //Update the Applock
         updateAppLock();
         
-        
+        System.out.println("Done");
 	}
 	
 	
