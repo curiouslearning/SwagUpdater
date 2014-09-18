@@ -73,7 +73,7 @@ public class SwagUpdater {
         //Update the Applock
         updateAppLock();
         
-        System.out.println("Done");
+        System.out.println("This tablet is complete");
 	}
 	
 	
@@ -86,22 +86,34 @@ public class SwagUpdater {
 		//push the db files to the tablet
 		executeCommand(adbAndSerial + " push gr_pref.xml /sdcard/");
 		executeCommand(adbAndSerial + " push applock.db /sdcard/");
-		executeCommand(adbAndSerial + " com.morrison.applocklite_preferences.xml /sdcard/");
+		executeCommand(adbAndSerial + " push com.morrison.applocklite_preferences.xml /sdcard/");
+		executeCommand(adbAndSerial + " push catdata.sh /sdcard/");
+		executeCommand(adbAndSerial + " shell \"cat /sdcard/catdata.sh | sh \" ");
 		
 
     	//Get the user info for com.morrison.applocklite
     	String packageListing = adbAndSerial + " shell \"cat /sdcard/dataOutput.txt\"";
     	
     	String[] resultSet = readCommandResponse(executeCommand(packageListing)).split("\n");
+    	if(resultSet.length < 5)
+    		System.out.println("dataOutput.txt is not present on the tablet or it has not been populated!");
+    	
+    	
+    	boolean isFound = false;
     	String morrisonString = "";
     	for(String result : resultSet)
     	{
     		if(result.contains("com.morrison.applocklite"))
     		{
 				morrisonString = result;
+				isFound = true;
 				break;
     		}
     	}
+    	
+    	if(!isFound)
+    		System.out.println("The app lockinstaller wasn't found in the listing of apps!");
+    	
     	System.out.println("morrisonString: " + morrisonString);
     	String userIdOfMorrison = morrisonString.split(" ")[1];
 
